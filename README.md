@@ -8,7 +8,8 @@ The purpose of this analysis is to see the temperature statistics for the months
 * The minimum temperature for June is 64 and for December, it is 56. The June weather looks more favorable for the business.
 * The max temperature for June is 85 and for December, it is 83. This does not seemm to be a huge difference and hence, December can also be considered as a fair season for the business.
 * The inter quartile range for June is 73 to 77 with a mean of 74.94 while the inter quartile range for December is 69 to 74 with a mean od 71.04.
-![Image]()
+![Image](https://github.com/Vaishali715/surfs_up/blob/main/Resources/june_temps.png)
+![Image](https://github.com/Vaishali715/surfs_up/blob/main/Resources/dec_temps.png)
 
 Looking at the overall statistics for the month of June, it is a good warm month for surf and ice cream while December looks little cold and may be challenging for the surf and ice cream business.
 
@@ -70,7 +71,7 @@ june_temp_df = pd.DataFrame(june_list)
 '''
 june_temp_df.describe()
 '''
-![Image]()
+![Image](https://github.com/Vaishali715/surfs_up/blob/main/Resources/june_temps.png)
 
 ### Additional query 1 - Precipitation data for the month of June.
 We have the query data saved in a variable called precip_june, then we convert this variable to a list named precip_june_list and finally convert this list to a pandas DataFrame called precip_june_df to get statistical and visulaziation data.
@@ -84,7 +85,7 @@ for p in precip_june:
 precip_june_df = pd.DataFrame(precip_june_list)
 precip_june_df.describe()
 '''
-![Image]()
+![Image](https://github.com/Vaishali715/surfs_up/blob/main/Resources/june_prcip.png)
 
 ### Additional query 2 - Precipitation data for the month of December.
 We have the query data saved in a variable called precip_dec, then we convert this variable to a list named precip_dec_list and finally convert this list to a pandas DataFrame called precip_dec_df to get statistical and visulaziation data.
@@ -98,5 +99,5 @@ for p in precip_dec:
 precip_dec_df = pd.DataFrame(precip_dec_list)
 precip_dec_df.describe()
 '''
-![Image]()
+![Image](https://github.com/Vaishali715/surfs_up/blob/main/Resources/dec_prcip.png)
 
