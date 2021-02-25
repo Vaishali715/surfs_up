@@ -6,8 +6,8 @@ The purpose of this analysis is to see the temperature statistics for the months
 ## Results
 
 * The minimum temperature for June is 64 and for December, it is 56. The June weather looks more favorable for the business.
-* The max temperature for June is 85 and for December, it is 83. This does not seemm to be a huge difference and hence, December can also be considered as a fair season for the business.
-* The inter quartile range for June is 73 to 77 with a mean of 74.94 while the inter quartile range for December is 69 to 74 with a mean od 71.04.
+* The max temperature for June is 85 and for December, it is 83. This does not seem to be a huge difference and hence, December can also be considered as a fair season for the business.
+* The inter quartile range for June is 73 to 77 with a mean of 74.94 while the inter quartile range for December is 69 to 74 with a mean of 71.04.
 
 
 ![Image](https://github.com/Vaishali715/surfs_up/blob/main/Resources/june_temps.png)
